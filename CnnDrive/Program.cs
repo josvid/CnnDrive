@@ -35,7 +35,7 @@ namespace CnnDrive
                 ApplicationName = ApplicationName
             });
 
-            string spreadsheetId = "1eo_5K7SHgNoNdlyEA04QBLWsiGirFS-yfBXy_xaAsU0";
+            string spreadsheetId = "xxxxxxx";
             string range = "Inventario!A:C";
 
             SpreadsheetsResource.ValuesResource.GetRequest request = service.Spreadsheets.Values.Get(spreadsheetId,range);
